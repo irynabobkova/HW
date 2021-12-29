@@ -1,0 +1,21 @@
+body::before {
+    content: '';
+    display: block;
+    height: 60px;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+#map {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
